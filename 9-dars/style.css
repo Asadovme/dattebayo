@@ -1,0 +1,45 @@
+.ota{
+ background-color: blue;
+ width: 500px;
+ height: 500px;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+      
+}
+.bola{
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.ota:hover .bola{
+    animation-name: abu;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes abu{
+    0%{
+    }
+30%{
+    transform: translatex(250px) rotate(90deg);
+    background-color: bisque;
+}
+60%{
+transform: translate(100%, 100%) rotate(180deg);
+background-color: brown;
+}
+80%{
+    transform: translatey(250px) rotate(90deg);
+    background-color: grey;
+}
+100%{
+    transform: translate(0%, 0%);
+}
+
+}
